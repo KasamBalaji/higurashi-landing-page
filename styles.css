@@ -4,7 +4,8 @@ body{
     margin: 0;
     flex-direction: column;
     background-color: #000000;
-    background-image: linear-gradient(to left, #000000 0%, #b82e1f 74%);;
+    background-image: linear-gradient(to left, #000000 0%, #b82e1f 74%);
+    color: black;
 }
 
 #logo{
@@ -46,4 +47,42 @@ a{
 
 a:hover{
     color: red;
+}
+
+.introduction{
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid rgb(128, 125, 125);
+    border-radius: 40px;
+    margin: 20px auto;
+
+}
+
+.text{
+    max-width: 600px;
+}
+
+
+.text h1{
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 25px;
+}
+#poster{
+    max-width: 600px;
+    max-height: 500px;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color:#b82e1f;
 }
